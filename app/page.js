@@ -1,11 +1,15 @@
 import Navbar from "./navbar";
 import Hero from "./hero";
-
-export default function Home() {
+import SearchBar from "./searchbar";
+import QuickAccess from "./quickaccess"; 
+import BottomCTA from "./BottomCTA"; 
+export default function Page() {
   return (
     <div>
       <Navbar />
       <Hero />
+      <QuickAccess />
+      <BottomCTA />  {/* ✅ Add Bottom CTA Section */}
     </div>
   );
 }
